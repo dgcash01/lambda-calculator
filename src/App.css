@@ -20,3 +20,32 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+  .numberButton {
+      margin-top: 25px;
+      height: 100px;
+      width: 100px;
+      border-radius: 50px;
+      color: white;
+      background-color: #182e6b;
+      box-shadow: 1px 1px #322c2d;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      padding-right: 8%;
+      font-size: 5.0rem;
+    }
+    .numberButtonWide {
+        margin-top: 25px;
+        height: 100px;
+        width: 200px;
+        border-radius: 50px;
+        color: white;
+        background-color: #182e6b;
+        box-shadow: 1px 1px #322c2d;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding-right: 8%;
+        font-size: 5.0rem;
+      }
+
