@@ -1,9 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
+import { operators } from '../../../data';
 
-const OperatorButton = () => {
+const OperatorButton = (props) => {
   return (
     <>
-      {/* Display a button element rendering the data being passed down from the parent container on props */}
+      <button className='operatorButton'>{props.myLabel}</button>
     </>
   );
 };
+
+export default OperatorButton;
